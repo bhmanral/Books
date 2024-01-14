@@ -1,0 +1,166 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Mukta', sans-serif;;
+}
+.header{
+    width: 100%;
+    height: 80px;
+    background-color: #343a40 !important;
+    display: flex;
+    flex-direction: row;
+}
+.logo{
+    width: 510px !important;
+    padding: 20px;
+    font-size: 30px;
+    color: #fff !important;
+    justify-content: center !important;
+    font-family: 'Edu VIC WA NT Beginner', cursive !important;
+}
+
+.header ul{
+    display: inline-flex;
+    list-style: none;
+}
+.header ul li{
+    width: 180px;
+    padding: 5px;
+    font-size: 20px;
+    text-align: center;
+}
+.header ul li a{
+    text-decoration: none;
+    color: #fff !important;
+}
+.header ul li a i{
+    font: #fff !important;
+    font-size: 20px;
+    padding-right: 10px;
+}
+.header ul li:hover{
+    background-color: #212121;
+    border-radius: 3px;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    background-color: #343a40;
+    color: #fff;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+}
+.footer h3{
+    padding-bottom: 15px;
+}
+.footer1{
+    width: 400px;    
+}
+.footer2{
+    width: 400px;
+}
+.footer3{
+    width: 400px;
+}
+.socials{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.socials a{
+    text-decoration: none;
+}
+.socials a i{
+    color: #fff !important;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 30px;
+}
+.socials .bi:hover{
+    color: #b2bec3 !important;
+}
+
+
+
+.formm{
+    justify-content: center;
+    padding-left: 350px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    background-color: #a29bfe;
+}
+
+.container {
+    width: 600px;
+    min-height: 400px;
+    background: #FFF;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0,0,0,.3);
+    padding: 40px 30px;
+}
+
+.container .login-text {
+    color: #111;
+    font-weight: 500;
+    font-size: 1.1rem;
+    text-align: center;
+    margin-bottom: 20px;
+    display: block;
+    text-transform: capitalize;
+    /* gap: 15px; */
+}
+
+.container .login-email .input-group {
+    width: 500px;
+    height: 50px;
+    margin-bottom: 25px;
+}
+
+.container .login-email .input-group input {
+    width: 535px;
+    height: 100%;
+    border: 2px solid gray;
+    padding: 5px 20px;
+    font-size: 1rem;
+    border-radius: 30px;
+    background: transparent;
+    outline: none;
+    transition: .3s;
+}
+
+.container .login-email .input-group input:focus, .container .login-email .input-group input:valid {
+    border-color: #a29bfe;
+}
+
+.container .login-email .input-group .btn {
+    display: block;
+    width: 580px;
+    padding: 15px 20px;
+    text-align: center;
+    border: none;
+    background: #a29bfe;
+    outline: none;
+    border-radius: 30px;
+    font-size: 1.2rem;
+    color: #FFF;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.container .login-email .input-group .btn:hover {
+    transform: translateY(-5px);
+    background: #6c5ce7;
+}
+
+.login-register-text {
+    color: #111;
+    font-weight: 600;
+}
+
+.login-register-text a {
+    text-decoration: none;
+    color: #6c5ce7;
+}

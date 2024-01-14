@@ -1,0 +1,248 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Mukta', sans-serif;;
+}
+.header{
+    width: 100%;
+    height: 80px;
+    background-color: #343a40 !important;
+    display: flex;
+    flex-direction: row;
+}
+.logo{
+    width: 510px !important;
+    padding: 20px;
+    font-size: 30px;
+    color: #fff !important;
+    justify-content: center !important;
+    font-family: 'Edu VIC WA NT Beginner', cursive !important;
+}
+
+.header ul{
+    display: inline-flex;
+    list-style: none;
+}
+.header ul li{
+    width: 180px;
+    padding: 5px;
+    font-size: 20px;
+    text-align: center;
+}
+.header ul li a{
+    text-decoration: none;
+    color: #fff !important;
+}
+.header ul li a i{
+    font: #fff !important;
+    font-size: 20px;
+    padding-right: 10px;
+}
+.header ul li:hover{
+    background-color: #212121;
+    border-radius: 3px;
+}
+
+
+.image-sec{
+    width: 100%;
+    height: 450px;
+    text-align: center;
+    background-color: #b3e5fc;
+}
+.bg-img{
+    width: 100%;
+    height: 450px; 
+    position: relative;
+    filter: blur(5px);
+}
+.text1{
+    position: absolute;
+    font-size: 60px;
+    top: 200px;
+    left: 150px;
+    color: black;
+}
+.text2{
+    position: absolute;
+    font-size: 40px;
+    top: 300px;
+    left: 150px; 
+    color: black;
+}
+
+.icons-container{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 150px;
+    padding-right: 150px;
+    display: flex;
+    flex-direction: column;
+    background-color: #b3e5fc;
+}
+.icons-container .row{
+    display: flex;
+    flex-direction: row !important;
+    justify-content: space-evenly;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+.icons-container .icons{
+    display: flex;
+    width: 350px;
+    height: 100px;
+    flex-direction: row;
+    padding: 18px 70px 10px 70px;
+    background-color: #bdbdbd;
+    border: #212121 solid 2px;
+    box-shadow: 4px 4px 4px #9e9e9e;
+    border-radius: 10px;
+
+}
+.icons-container .row .icons i{
+    font-size: 40px;
+    width: 75px;
+}
+.icons-container .row .icons .content{
+    width: 300px;
+}
+.second-sec{
+    background-color: #b3e5fc;
+    margin: 0;
+    padding: 20px;
+    
+}
+.section2{
+    display: grid;
+    grid-template-columns:  1fr 1fr;
+    margin: 20px 50px 20px 50px;
+    padding: 15px;
+    gap: 15px;
+    border: black solid 1px;
+    border-radius: 8px;
+    background: #314bc4;
+}
+.contentt{
+    background: #fff;
+    height: 480px;
+    border-radius: 15px;
+    margin: 35px 20px 35px 20px;
+    padding: 15px 20px 15px 20px;
+}
+.contentt .info{
+    margin-right: 30px;
+    font-size: 25px !important;
+}
+.contentt h4{
+    padding-bottom: 3px;
+    padding-top: 2px;
+    font-size: 15px;
+
+}
+
+
+.form{
+    display: flex;
+    flex-direction: column;
+}
+.heading{
+    font-size: 35px;
+    /* color: #fff; */
+    padding-left: 145px;
+}
+.form span{
+    display: block;
+    font-size: 22px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+.form input{
+    width: 80%;
+    height: 50px;
+    margin: 5px;
+    font-size: 15px;
+    background: rgb(240, 222, 222);
+    border: 0.5px black solid;
+    border-radius: 8px;
+    padding-left: 5px;
+    text-transform: none;
+}
+.msg{
+     width: 80%;
+    height: 50px;
+    margin: 5px !important;
+    font-size: 15px !important;
+    background: rgb(240, 222, 222);
+    border: 0.5px black solid;
+    border-radius: 8px;
+    padding-left: 5px !important;
+    text-transform: none;
+}
+.btn{
+    width: 25% !important;
+    margin-top: 5px;
+    display: inline-block;
+    padding: 10px 35px;
+    border-radius: 5px;
+    background: #212121 !important;
+    color: #fff;
+    justify-content: center;
+    font-size: 20px;
+    cursor: pointer;
+}
+.btn:hover{
+    background: #343a40 !important;
+    box-shadow: 4px 4px 4px gray;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    background-color: #343a40;
+    color: #fff;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+}
+.footer h3{
+    padding-bottom: 15px;
+}
+.footer1{
+    width: 400px;    
+}
+.footer2{
+    width: 400px;
+}
+.footer3{
+    width: 400px;
+}
+.socials{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.socials a{
+    text-decoration: none;
+}
+.socials a i{
+    color: #fff !important;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 30px;
+}
+.socials .bi:hover{
+    color: #b2bec3 !important;
+}
+
+
+
+
+
+@media (max-width:1000px) {
+    .header{
+        padding-top: 0px;
+    }
+}

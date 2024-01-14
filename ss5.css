@@ -1,0 +1,145 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Mukta', sans-serif;;
+}
+.header{
+    width: 100%;
+    height: 80px;
+    background-color: #343a40 !important;
+    display: flex;
+    flex-direction: row;
+}
+.logo{
+    width: 510px !important;
+    padding: 20px;
+    font-size: 30px;
+    color: #fff !important;
+    justify-content: center !important;
+    font-family: 'Edu VIC WA NT Beginner', cursive !important;
+}
+
+.header ul{
+    display: inline-flex;
+    list-style: none;
+}
+.header ul li{
+    width: 180px;
+    padding: 5px;
+    font-size: 20px;
+    text-align: center;
+}
+.header ul li a{
+    text-decoration: none;
+    color: #fff !important;
+}
+.header ul li a i{
+    font: #fff !important;
+    font-size: 20px;
+    padding-right: 10px;
+}
+.header ul li:hover{
+    background-color: #212121;
+    border-radius: 3px;
+}
+.type-heading{
+    padding-top: 20px;
+    padding-left: 50px;
+}
+.row{    
+    display: inline-flex;
+    width: 100%;
+    margin: 0 !important;
+    padding-left: 20px;
+    padding-right: 20px;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.books-img{
+    height: 170px;
+    width: 120px;
+    border: 1px black solid;
+}
+.box{
+    width: 22%;
+    margin: 15px;
+    text-align: center;
+    padding:20px 10px;
+    border: 1px #95a5a6 solid;
+    border-radius: 10px;
+}
+.box:hover{
+    border: 0.5px black solid;
+    box-shadow: 4px 4px 4px gray;
+}
+.book-name{
+    font-size: 20px;
+}
+.book-info{
+    text-align: left;
+}
+.shop-btn{
+    width: 75%;
+    height: 50px;
+    border-radius: 5px;
+    align-self: center !important;
+    background: #212121;
+    color: #fff;
+}
+.shop-btn:hover{
+    background: #343a40;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    background-color: #343a40;
+    color: #fff;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+}
+.footer h3{
+    padding-bottom: 15px;
+}
+.footer1{
+    width: 400px;    
+}
+.footer2{
+    width: 400px;
+}
+.footer3{
+    width: 400px;
+}
+.socials{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.socials a{
+    text-decoration: none;
+}
+.socials a i{
+    color: #fff !important;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 30px;
+}
+.socials .bi:hover{
+    color: #b2bec3 !important;
+}
+.main-heading{
+    text-align: center;
+    font-size: 50px;
+    text-decoration: underline;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+@media (max-width:1000px) {
+    .header{
+        padding-top: 0px;
+    }
+}
