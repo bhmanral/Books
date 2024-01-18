@@ -1,4 +1,4 @@
-<h1 align="center"> BOOK ORDERING SYSTEM </h1>
+<h1 align="center"> BOOK STORE </h1>
 
 ### Connect with me:
 
